@@ -46,6 +46,8 @@ static real_t heuristic_manhattan(const Vector2i &p_from, const Vector2i &p_to) 
 	return dx + dy;
 }
 
+//test -- this is a test comment
+
 static real_t heuristic_octile(const Vector2i &p_from, const Vector2i &p_to) {
 	real_t dx = (real_t)ABS(p_to.x - p_from.x);
 	real_t dy = (real_t)ABS(p_to.y - p_from.y);
